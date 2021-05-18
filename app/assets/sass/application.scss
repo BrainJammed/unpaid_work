@@ -115,3 +115,15 @@ $govuk-assets-path: '/govuk/assets/';
 .govuk-summary-list__value {
 	width: 50% !important;
 }
+
+.govuk-grid-column-one-third {
+	margin-top: 75px;
+}
+
+.govuk-\!-width-one-third  {
+	width: 40% !important;
+}
+
+.govuk-table__header--numeric, .govuk-table__cell--numeric {
+    text-align: left;
+}

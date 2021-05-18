@@ -152,19 +152,19 @@ Case summary
                     </li>
 
                     <li class="moj-sub-navigation__item">
-                      <a class="moj-sub-navigation__link" href="abilitytowork.html">Ability to work</a>
+                      <a class="moj-sub-navigation__link" href="#2">Ability to work</a>
                     </li>
 
                     <li class="moj-sub-navigation__item">
-                      <a class="moj-sub-navigation__link" href="placement.html">Placement restrictions</a>
+                      <a class="moj-sub-navigation__link" href="#3">Placement restrictions</a>
                     </li>
 
                     <li class="moj-sub-navigation__item">
-                      <a class="moj-sub-navigation__link" href="riskmanagement.html">Management of risk</a>
+                      <a class="moj-sub-navigation__link" href="#3">Management of risk</a>
                     </li>
 
                     <li class="moj-sub-navigation__item">
-                      <a class="moj-sub-navigation__link" href="sentence.html">Sentence plan and declaration</a>
+                      <a class="moj-sub-navigation__link" href="#3">Sentence plan and declaration</a>
                     </li>
                   </ul>
                 </nav>

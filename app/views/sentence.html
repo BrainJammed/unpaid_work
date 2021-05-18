@@ -148,7 +148,7 @@ Case summary
 
                   <ul class="moj-sub-navigation__list">
                     <li class="moj-sub-navigation__item">
-                      <a class="moj-sub-navigation__link" aria-current="page" href="#1">Individual's details </a>
+                      <a class="moj-sub-navigation__link" href="index.html">Individual's details </a>
                     </li>
 
                     <li class="moj-sub-navigation__item">
@@ -164,7 +164,7 @@ Case summary
                     </li>
 
                     <li class="moj-sub-navigation__item">
-                      <a class="moj-sub-navigation__link" href="sentence.html">Sentence plan and declaration</a>
+                      <a class="moj-sub-navigation__link" aria-current="page" href="sentence.html">Sentence plan and declaration</a>
                     </li>
                   </ul>
                 </nav>
@@ -178,234 +178,149 @@ Case summary
 
 
                         <h2 class="govuk-heading-l govuk-!-margin-top-2">
-                          Individual’s details
+                           Sentence plan and declaration
                         </h2>
 
-                        <h3 class="govuk-heading-m">Personal details</h3>
 
-                        <dl class="govuk-summary-list">
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Family name
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              Hart
-                            </dd>
-                            <dd class="govuk-summary-list__value">
-                              
-                            </dd>
+
+                        <div class="govuk-form-group">
+                            <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--m" for="more-detail">
+                                What are the UPW Sentence Plan objective(s)?
+                              </label>
+                            </h1>
+                            <div id="more-detail-hint" class="govuk-hint">
+                             Do not include personal or financial information, like your National Insurance number or credit card details.
+                            </div>
+                            <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
+
                           </div>
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Forename
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              Gary
-                            </dd>
-                            <dd class="govuk-summary-list__value">
-                              
-                            </dd>
+                          <div class="govuk-form-group">
+                            <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+                              <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                                <h1 class="govuk-fieldset__heading">
+                                  Have they received details of their UPW induction session?
+                                </h1>
+                              </legend>
+                              <div class="govuk-radios govuk-radios--inline">
+                                <div class="govuk-radios__item">
+                                  <input class="govuk-radios__input" id="changed-name" name="changed-name" type="radio" value="yes">
+                                  <label class="govuk-label govuk-radios__label" for="changed-name">
+                                    Yes
+                                  </label>
+                                </div>
+                                <div class="govuk-radios__item">
+                                  <input class="govuk-radios__input" id="changed-name-2" name="changed-name" type="radio" value="no">
+                                  <label class="govuk-label govuk-radios__label" for="changed-name-2">
+                                    No
+                                  </label>
+                                </div>
+                              </div>
+
+                            </fieldset>
                           </div>
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Alias
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              None
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
+                          <div class="govuk-form-group">
+                            <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+                              <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                                <h1 class="govuk-fieldset__heading">
+                                  Have they agreed to contact their GP and ask for information?
+                                </h1>
+                              </legend>
+                              <div class="govuk-radios govuk-radios--inline">
+                                <div class="govuk-radios__item">
+                                  <input class="govuk-radios__input" id="changed-name" name="gp" type="radio" value="yes">
+                                  <label class="govuk-label govuk-radios__label" for="changed-name">
+                                    Yes
+                                  </label>
+                                </div>
+                                <div class="govuk-radios__item">
+                                  <input class="govuk-radios__input" id="changed-name-2" name="gp" type="radio" value="no">
+                                  <label class="govuk-label govuk-radios__label" for="changed-name-2">
+                                    No
+                                  </label>
+                                </div>
+                              </div>
+
+                            </fieldset>
                           </div>
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Date of birth
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              12 October 1989
-                            </dd>
-                            <dd class="govuk-summary-list__value">
-                              
-                            </dd>
+                          <div class="govuk-form-group">
+                            <fieldset class="govuk-fieldset" role="group" aria-describedby="passport-issued-hint">
+                              <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                                <h1 class="govuk-fieldset__heading">
+                                  Date
+                                </h1>
+                              </legend>
+                              <div id="passport-issued-hint" class="govuk-hint">
+                                For example, 12 11 2007
+                              </div>
+                              <div class="govuk-date-input" id="passport-issued">
+                                <div class="govuk-date-input__item">
+                                  <div class="govuk-form-group">
+                                    <label class="govuk-label govuk-date-input__label" for="passport-issued-day">
+                                      Day
+                                    </label>
+                                    <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-day" name="passport-issued-day" type="text" pattern="[0-9]*" inputmode="numeric"></div>
+                                </div>
+                                <div class="govuk-date-input__item">
+                                  <div class="govuk-form-group">
+                                    <label class="govuk-label govuk-date-input__label" for="passport-issued-month">
+                                      Month
+                                    </label>
+                                    <input class="govuk-input govuk-date-input__input govuk-input--width-2" id="passport-issued-month" name="passport-issued-month" type="text" pattern="[0-9]*" inputmode="numeric"></div>
+                                </div>
+                                <div class="govuk-date-input__item">
+                                  <div class="govuk-form-group">
+                                    <label class="govuk-label govuk-date-input__label" for="passport-issued-year">
+                                      Year
+                                    </label>
+                                    <input class="govuk-input govuk-date-input__input govuk-input--width-4" id="passport-issued-year" name="passport-issued-year" type="text" pattern="[0-9]*" inputmode="numeric"></div>
+                                </div>
+                              </div>
+
+                            </fieldset>
                           </div>
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Gender
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              Male
-                            </dd>
-                            <dd class="govuk-summary-list__value">
-                              
-                            </dd>
-                          </div>
-                        </dl>
 
-                        <h3 class="govuk-heading-m">Contact details</h3>
-
-                        <dl class="govuk-summary-list">
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Phone number
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              077 1515 7878
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
+                          <div class="govuk-form-group">
+                            <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--m" for="account-number">
+                                What is the individual's phone number?
+                              </label>
+                            </h1>
+<!--                             <div id="account-number-hint" class="govuk-hint">
+                              Must be between 6 and 11 digits long
+                            </div> -->
+                            <input class="govuk-input govuk-input--width-10" id="account-number" name="account-number" type="text" spellcheck="false" aria-describedby="account-number-hint" pattern="[0-9]*" inputmode="numeric">
                           </div>
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Address
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              100 Drive Street,<br>
-                              Flat 10, London,<br>
-                              NE3 4NE
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
-                        </dl>
-
-
-                        <h3 class="govuk-heading-m">Emergency contact details</h3>
-
-                        <dl class="govuk-summary-list">
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Family name
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              Hart
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
+                          <div class="govuk-form-group">
+                            <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--m" for="event-name">
+                                Individual's signature
+                              </label>
+                            </h1>
+<!--                             <div id="event-name-hint" class="govuk-hint">
+                              The name you’ll use on promotional material.
+                            </div> -->
+                            <input class="govuk-input govuk-!-width-two-thirds" id="event-name" name="event-name" type="text" aria-describedby="event-name-hint">
                           </div>
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Forename
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              Diana
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
+                          <button class="govuk-button" data-module="govuk-button">
+                            Complete assessement
+                          </button>
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Address
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              100 Drive Street,<br>
-                              Flat 10, London,<br>
-                              NE3 4NE
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Relationship to the individual
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              Sister
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Phone number
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              077 1115 7118
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
-                        </dl>
+                          
 
-                        <h3 class="govuk-heading-m">Diversity information</h3>
 
-                        <dl class="govuk-summary-list">
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Preferred language
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              English
-                            </dd>
-                            <dd class="govuk-summary-list__value">
-                              
-                            </dd>
-                          </div>
+                       
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Do they require an interpreter?
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              No
-                            </dd>
-                            <dd class="govuk-summary-list__value">
-                              
-                            </dd>
-                          </div>
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Maturity assessment
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              OASys indicates individual likely to need support aimed at promoting maturation?
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
+                        
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Cultural or religious adjustments required
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              No
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
-
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Have they been through any part of a process to change sex?
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              No
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
-                        </dl></div>
+                  </div>
 
                     <div class="govuk-grid-column-one-third">
                       <h3 class="govuk-heading-m">Risk of harm details</h3>
