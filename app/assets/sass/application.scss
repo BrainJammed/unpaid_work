@@ -113,7 +113,7 @@ $govuk-assets-path: '/govuk/assets/';
 //TABLE
 
 .govuk-summary-list__value {
-	width: 50% !important;
+	width: 100%;
 }
 
 .govuk-grid-column-one-third {
@@ -145,7 +145,7 @@ $govuk-assets-path: '/govuk/assets/';
 
 .app-back-to-top {
   position: fixed;
-  top: 50%;
+  top: 100%;
   width: 8em;
   margin-top: -2.5em;
 
