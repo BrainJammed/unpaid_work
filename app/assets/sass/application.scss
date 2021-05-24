@@ -127,3 +127,29 @@ $govuk-assets-path: '/govuk/assets/';
 .govuk-table__header--numeric, .govuk-table__cell--numeric {
     text-align: left;
 }
+
+//TAGS
+
+.mappa {
+	h3{
+		display: inline-block;
+	}
+	strong {
+		display: inline-block;
+	}
+}
+
+.hiddenOffencesCurrent, .hiddenOffencesPrev, .hiddenStranger {
+  display: none;
+}
+
+.app-back-to-top {
+  position: fixed;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+
+}
+
+
+
