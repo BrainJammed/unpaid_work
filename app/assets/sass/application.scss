@@ -151,5 +151,12 @@ $govuk-assets-path: '/govuk/assets/';
 
 }
 
+.govuk-summary-list__value:last-child {
+	width: 13%;
+}
+
+.govuk-summary-list__value  {
+	width: 50%;
+}
 
 
