@@ -134,7 +134,7 @@ Case summary
       C13.7,13.2,13.2,13.7,12.5,13.7z M12.5,0.5c-6.6,0-12,5.4-12,12s5.4,12,12,12s12-5.4,12-12S19.1,0.5,12.5,0.5z" />
       </svg>
        <div class="moj-banner__message">
-        <h2 class="govuk-heading-m">George Davies does not have a risk of harm assessment. Start an assessment now. </h2>
+       <h2 class="govuk-heading-m">George Davies does not have a risk of harm assessment. Start an assessment now. </h2>
       </div>
     </div>
             
@@ -156,11 +156,11 @@ Case summary
                     </li>
 
                     <li class="moj-sub-navigation__item">
-                      <a class="moj-sub-navigation__link" href="ability.html">Ability to work</a>
+                      <a class="moj-sub-navigation__link" aria-current="page" href="ability.html">Ability to work</a>
                     </li>
 
                     <li class="moj-sub-navigation__item">
-                      <a class="moj-sub-navigation__link" aria-current="page" href="placement.html">Placement restrictions</a>
+                      <a class="moj-sub-navigation__link" href="placement.html">Placement restrictions</a>
                     </li>
 
                     <li class="moj-sub-navigation__item">
@@ -180,123 +180,477 @@ Case summary
 
                   <div class="govuk-grid-column-two-thirds">
 
+                    <h2 class="govuk-heading-l">Ability to work</h2>
 
-                        <h2 class="govuk-heading-l govuk-!-margin-top-2">
-                          Placement restrictions
+                    <div class="govuk-tabs" data-module="govuk-tabs">
+                        <h2 class="govuk-tabs__title">
+                          Contents
                         </h2>
-
-                        <h3 class="govuk-heading-m">Disabilities</h3>
-                         <p class="govuk-body" style="color: #505A5F;">Say how many of these affect the individual's ability to do unpaid work and what adjustments will need to be made.</p>
-
-                        <dl class="govuk-summary-list">
-
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Physical disabilites
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                             
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
-
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Learning disabilities or difficulties
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
-
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Mental health
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
-                        </dl>
-
-                        <h3 class="govuk-heading-m">Health issues</h3>
-                        <p class="govuk-body" style="color: #505A5F;">Are there any other health issues that may affect their ability to work?</p>
-
-                        <dl class="govuk-summary-list">
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Are there any other health issues that may affect their ability to work?
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
-                        </dl>
+                        <ul class="govuk-tabs__list">
+                          <li class="govuk-tabs__list-item govuk-tabs__list-item--selected">
+                            <a class="govuk-tabs__tab" href="#past-day">
+                              Employment, education and skills
+                            </a>
+                          </li>
+                          <li class="govuk-tabs__list-item">
+                            <a class="govuk-tabs__tab" href="#past-week">
+                              Availability
+                            </a>
+                          </li>
+                        </ul>
 
 
-                        <h3 class="govuk-heading-m">Travelling issues</h3>
+                        <div class="govuk-tabs__panel" id="past-day">
+                          <h2 class="govuk-heading-l">Employment, education and skills </h2>
+<!-- 
+                           <h3 class="govuk-heading-">Status, details and difficulties</h3> -->
 
-                        <dl class="govuk-summary-list">
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Do they have any travel issues that may affect their placement?
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              <!-- <ul class="govuk-list govuk-list--bullet">
-                                <li>Offender doesn’t have a valid driving licence</li>
-                              </ul> -->
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
-                        </dl>
+                           <div class="govuk-form-group">
+                              <fieldset class="govuk-fieldset">
+                                <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                                  <h1 class="govuk-fieldset__heading">
+                                    What type of employment or education they have?
+                                  </h1>
+                                </legend>
+                                <div class="govuk-radios">
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="where-do-you-live" name="where-do-you-live" type="radio" value="england">
+                                    <label class="govuk-label govuk-radios__label" for="where-do-you-live">
+                                      Full-time employment or education
+                                    </label>
+                                  </div>
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="where-do-you-live-2" name="where-do-you-live" type="radio" value="scotland">
+                                    <label class="govuk-label govuk-radios__label" for="where-do-you-live-2">
+                                      Part-time employment or education
+                                    </label>
+                                  </div>
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="where-do-you-live-3" name="where-do-you-live" type="radio" value="wales">
+                                    <label class="govuk-label govuk-radios__label" for="where-do-you-live-3">
+                                      Not in employment or education
+                                    </label>
+                                  </div>
 
-                        <h3 class="govuk-heading-m">Other issues</h3>
+                                </div>
 
-                        <dl class="govuk-summary-list">
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Do they have any caring commitments?
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
+                              </fieldset>
+                            </div>
 
-                          <div class="govuk-summary-list__row">
-                            <dt class="govuk-summary-list__key govuk-!-width-one-third">
-                              Other
-                            </dt>
-                            <dd class="govuk-summary-list__value">
-                              
-                            </dd>
-                            <dd class="govuk-summary-list__value" style="text-align: right; color: #1D70B8">
-                              <a href="#" class="govuk-link">Edit</a>
-                            </dd>
-                          </div>
+                            <div class="govuk-form-group">
+                              <h1 class="govuk-label-wrapper"><label class="govuk-label govuk-label--m" for="more-detail">
+                                  Employment or education details (working days, hours etc)
+                                </label>
+                              </h1>
+                              <textarea class="govuk-textarea" id="more-detail" name="more-detail" rows="5" aria-describedby="more-detail-hint"></textarea>
+                            </div>
 
-                        </dl></div>
+                            <div class="govuk-form-group">
+                              <fieldset class="govuk-fieldset" aria-describedby="contact-hint">
+                                <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                                  <h1 class="govuk-fieldset__heading">
+                                    Do they have any difficulties with reading and/or writing? 
+                                  </h1>
+                                </legend>
+                                <div id="contact-hint" class="govuk-hint">
+                                  Select one option.
+                                </div>
+                                <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="contact" name="contact" type="radio" value="email" data-aria-controls="conditional-contact">
+                                    <label class="govuk-label govuk-radios__label" for="contact">
+                                      Yes
+                                    </label>
+                                  </div>
+                                  <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-contact">
+                                    <div class="govuk-form-group">
+                                      <label class="govuk-label" for="two-thirds">
+                                        Provide details
+                                      </label>
+                                      <input class="govuk-input govuk-!-width-two-thirds" id="two-thirds" name="two-thirds" type="text">
+                                    </div>
+                                  </div>
 
-                    <div class="govuk-grid-column-one-third">
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="contact-2" name="contact" type="radio" value="phone" data-aria-controls="conditional-contact-2">
+                                    <label class="govuk-label govuk-radios__label" for="contact-2">
+                                      No
+                                    </label>
+                                  </div>
+
+                                 <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-contact-2">
+                                    <div class="govuk-form-group">
+                                      <label class="govuk-label" for="two-thirds">
+                                        Provide details
+                                      </label>
+                                      <input class="govuk-input govuk-!-width-two-thirds" id="two-thirds" name="two-thirds" type="text">
+                                    </div>
+                                  </div>
+                                 
+
+                              </fieldset>
+                            </div>
+
+                            <div class="govuk-form-group">
+                              <fieldset class="govuk-fieldset" aria-describedby="contact-hint">
+                                <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                                  <h1 class="govuk-fieldset__heading">
+                                    Do they have future work plans that could be supported through a CP Placement (e.g. retail, gardening etc)? gardening
+                                  </h1>
+                                </legend>
+                                <div id="contact-hint" class="govuk-hint">
+                                  Select one option.
+                                </div>
+                                <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="gardening" name="gardening" type="radio" value="email" data-aria-controls="conditional-gardening">
+                                    <label class="govuk-label govuk-radios__label" for="gardening">
+                                      Yes
+                                    </label>
+                                  </div>
+                                  <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-gardening">
+                                    <div class="govuk-form-group">
+                                      <label class="govuk-label" for="two-thirds">
+                                        Provide details
+                                      </label>
+                                      <input class="govuk-input govuk-!-width-two-thirds" id="two-thirds" name="two-thirds" type="text">
+                                    </div>
+                                  </div>
+
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="gardening-2" name="gardening" type="radio" value="phone" data-aria-controls="conditional-gardening-2">
+                                    <label class="govuk-label govuk-radios__label" for="contact-2">
+                                      No
+                                    </label>
+                                  </div>
+
+                                 <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-gardening-2">
+                                    <div class="govuk-form-group">
+                                      <label class="govuk-label" for="two-thirds">
+                                        Provide details
+                                      </label>
+                                      <input class="govuk-input govuk-!-width-two-thirds" id="two-thirds" name="two-thirds" type="text">
+                                    </div>
+                                  </div>
+                                 
+
+                              </fieldset>
+                            </div>
+
+                           
+
+<!--                             <h3 class="govuk-heading-m">Intensive working</h3> -->
+
+                            <div class="govuk-form-group">
+                              <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+                                <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                                  <h1 class="govuk-fieldset__heading">
+                                    Are they eligible for intensive working?
+                                  </h1>
+                                </legend>
+                                <div class="govuk-radios govuk-radios--inline">
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="changed-name" name="changed-name" type="radio" value="yes">
+                                    <label class="govuk-label govuk-radios__label" for="changed-name">
+                                      Yes
+                                    </label>
+                                  </div>
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="changed-name-2" name="changed-name" type="radio" value="no">
+                                    <label class="govuk-label govuk-radios__label" for="changed-name-2">
+                                      No
+                                    </label>
+                                  </div>
+                                </div>
+
+                              </fieldset>
+                            </div>
+
+                            
+
+                              <div class="govuk-form-group">
+                                <h1 class="govuk-label-wrapper">
+                                  <label class="govuk-label govuk-label--m" for="account-number">
+                                    Recommended Hours per week in addition to statutory minimum – at the start of the order
+                                  </label>
+                                </h1>
+                                  <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text">
+                                </div>
+
+                                <div class="govuk-form-group">
+                                <h1 class="govuk-label-wrapper">
+                                  <label class="govuk-label govuk-label--m" for="account-number">
+                                    Recommended Hours per week in addition to statutory minimum – at the midpoint of the order
+                                  </label>
+                                </h1>
+                                  <input class="govuk-input govuk-input--width-2" id="width-2" name="width-2" type="text">
+                                </div>
+
+                                <div class="govuk-form-group">
+                                <h1 class="govuk-label-wrapper">
+                                  <label class="govuk-label govuk-label--m" for="account-number">
+                                    At what point should they be expected to reach a 28-hour working week?
+                                  </label>
+                                </h1>
+                                  <input class="govuk-input govuk-input--width-6" id="width-6" name="width-6" type="text">
+                                </div>
+                               
+
+                           
+
+                            <h3 class="govuk-heading-l">Training and employment opportunities</h3>
+                            <p class="govuk-body" style="color: #505A5F;">Individuals who are unemployed, at risk of unemployment, or whose offending reflects employment-related needs can use up to 20% of their UPW hours on education, training and pre-employment activity.</p>
+
+                            <div class="govuk-form-group">
+                              <fieldset class="govuk-fieldset" aria-describedby="contact-hint">
+                                <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                                  <h1 class="govuk-fieldset__heading">
+                                    Do they have an education, training, or employment-related need?
+                                  </h1>
+                                </legend>
+                                <div id="contact-hint" class="govuk-hint">
+                                  Select one option.
+                                </div>
+                                <div class="govuk-radios govuk-radios--conditional" data-module="govuk-radios">
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="gardening" name="gardening" type="radio" value="email" data-aria-controls="conditional-gardening">
+                                    <label class="govuk-label govuk-radios__label" for="gardening">
+                                      Yes
+                                    </label>
+                                  </div>
+                                  <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-gardening">
+                                    <div class="govuk-form-group">
+                                      <label class="govuk-label" for="two-thirds">
+                                        Provide details
+                                      </label>
+                                      <input class="govuk-input govuk-!-width-two-thirds" id="two-thirds" name="two-thirds" type="text">
+                                    </div>
+                                  </div>
+
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="gardening-2" name="gardening" type="radio" value="phone" data-aria-controls="conditional-gardening-2">
+                                    <label class="govuk-label govuk-radios__label" for="contact-2">
+                                      No
+                                    </label>
+                                  </div>
+
+                                 <div class="govuk-radios__conditional govuk-radios__conditional--hidden" id="conditional-gardening-2">
+                                    <div class="govuk-form-group">
+                                      <label class="govuk-label" for="two-thirds">
+                                        Provide details
+                                      </label>
+                                      <input class="govuk-input govuk-!-width-two-thirds" id="two-thirds" name="two-thirds" type="text">
+                                    </div>
+                                  </div>
+                                 
+
+                              </fieldset>
+                            </div>
+
+                            <div class="govuk-form-group">
+                              <fieldset class="govuk-fieldset" aria-describedby="changed-name-hint">
+                                <legend class="govuk-fieldset__legend govuk-fieldset__legend--m">
+                                  <h1 class="govuk-fieldset__heading">
+                                    Do they agree to use up to 20% of their hours on this activity?
+                                  </h1>
+                                </legend>
+                                <div class="govuk-radios govuk-radios--inline">
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="changed-name" name="changed-name" type="radio" value="yes">
+                                    <label class="govuk-label govuk-radios__label" for="changed-name">
+                                      Yes
+                                    </label>
+                                  </div>
+                                  <div class="govuk-radios__item">
+                                    <input class="govuk-radios__input" id="changed-name-2" name="changed-name" type="radio" value="no">
+                                    <label class="govuk-label govuk-radios__label" for="changed-name-2">
+                                      No
+                                    </label>
+                                  </div>
+                                </div>
+
+                              </fieldset>
+                            </div>
+
+
+
+
+                         
+
+                            
+                          
+                        </div>
+
+                        <div class="govuk-tabs__panel govuk-tabs__panel--hidden" id="past-week">
+                          <h2 class="govuk-heading-l">Availability</h2>
+                           <table class="govuk-table">
+                              <caption class="govuk-table__caption govuk-table__caption--m">Days and times
+                              <p class="govuk-body" style="color: #505A5F;">Record when they are NOT available for UPW and give the reasons.</p></caption>
+
+                              <thead class="govuk-table__head">
+                                  <th scope="row" class="govuk-table__header"></th>
+                                  <th scope="col" class="govuk-table__header govuk-table__header--numeric">Monday</th>
+                                  <th scope="col" class="govuk-table__header govuk-table__header--numeric">Tuesday</th>
+                                  <th scope="col" class="govuk-table__header govuk-table__header--numeric">Wednesday</th>
+                                  <th scope="col" class="govuk-table__header govuk-table__header--numeric">Thursday</th>
+                                  <th scope="col" class="govuk-table__header govuk-table__header--numeric">Friday</th>
+                                  <th scope="col" class="govuk-table__header govuk-table__header--numeric">Saturday</th>
+                                  <th scope="col" class="govuk-table__header govuk-table__header--numeric">Sunday</th>
+                                </tr>
+                              </thead>
+                              <tbody class="govuk-table__body">
+                                <tr class="govuk-table__row">
+                                  <th scope="row" class="govuk-table__header">Morning</th>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr class="govuk-table__row">
+                                  <th scope="row" class="govuk-table__header">Afternoon</th>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                </tr>
+                                <tr class="govuk-table__row">
+                                  <th scope="row" class="govuk-table__header">Evening</th>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                  <td class="govuk-table__cell govuk-table__cell--numeric">
+                                    <div class="govuk-checkboxes__item govuk-checkboxes govuk-checkboxes--small">
+                                        <input class="govuk-checkboxes__input" id="organisation-3" name="organisation" type="checkbox" value="MOD">
+                                        <label class="govuk-label govuk-checkboxes__label" for="organisation-3"></label>
+                                    </div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                        </div>
+                       
+                      </div>
+
+
+                  </div>
+
+                     <div class="govuk-grid-column-one-third">
                       <h3 class="govuk-heading-m">Risk of harm details</h3>
                       <p class="govuk-body">You must complete a risk of harm assessment to see the risk scores.</p>
+ 
                       
-                     <div class="mappa">
+
+                       <div class="mappa">
                         <h3 class="govuk-heading-s" style="width: 70%;">Multi-agency public protection arrangements MAPPA</h3>
                         <strong class="govuk-tag govuk-tag--green" style="float: right;">No</strong>
                        <!--  <details class="govuk-details" data-module="govuk-details">
@@ -329,7 +683,7 @@ Case summary
                       <div class="mappa">
                         <h3 class="govuk-heading-s" style="width: 60%;">Risk of serious recidivism (RSR)</h3>
                         <strong class="govuk-tag govuk-tag--grey" style="float: right;">Not assessed</strong>
-                        <!-- <details class="govuk-details" data-module="govuk-details">
+<!--                         <details class="govuk-details" data-module="govuk-details">
                           <summary class="govuk-details__summary">
                             <span class="govuk-details__summary-text">
                               View RSR details
@@ -341,9 +695,13 @@ Case summary
                         </details> -->
                       </div>
 
+                    </div>
+
                 </div>
 
-                
+                <button class="govuk-button" data-module="govuk-button" onclick="location.href = 'placement.html';">
+                  Continue to placement restrictions
+                </button>
 
 
 
@@ -355,10 +713,6 @@ Case summary
 
               
         </main>
-
-        <button class="govuk-button" data-module="govuk-button" onclick="location.href = 'riskmanagement.html';">
-          Continue to management of risk
-        </button>
       </div>
     
 
